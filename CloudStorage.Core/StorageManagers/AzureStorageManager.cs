@@ -33,7 +33,7 @@ namespace CloudStorage.Core
 
             if (!File.Exists(pathResult))
             {
-                using FileStream fs = new(fileName, FileMode.Create);
+                using FileStream fs = new(pathResult, FileMode.Create);
                 await blobClient.DownloadToAsync(fs);
             }
             return $"{EnvironmentManager.GetApplicationHost()}/{fileName}";
