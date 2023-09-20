@@ -38,4 +38,8 @@ msbuild.wrn
 
 **/sa-key/*.json
 appsettings.Development.json
-*/wwwroot/*
+*/wwwroot/*.png
+*/wwwroot/*.jpg
+*/wwwroot/*.jpeg
+*/wwwroot/*.gif
+*/wwwroot/*.bmp
