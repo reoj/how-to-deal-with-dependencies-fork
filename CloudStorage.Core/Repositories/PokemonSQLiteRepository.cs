@@ -1,12 +1,4 @@
-﻿using CloudStorage.Core.Exceptions;
-using CloudStorage.Core.Model;
-using CloudStorage.Core.Model.DAL;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace CloudStorage.Core
 {

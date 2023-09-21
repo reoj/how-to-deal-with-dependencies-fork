@@ -12,6 +12,7 @@ namespace CloudStorage.Core
                             o => o.UseSqlite(connectionString,
                             x => x.MigrationsAssembly("CloudStorage.Core")))
             .AddTransient<IPokemonRepository, PokemonSQLiteRepository>()
+            .AddTransient<IStorageManager, AzureStorageManager>()
             .AddTransient<IPokemonService, PokemonService>();
     }
 }
